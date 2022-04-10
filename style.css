@@ -1,0 +1,33 @@
+/*
+Theme Name: ListingHive Child
+Theme URI: https://hivepress.io/themes/listinghive
+Template: listinghive
+Author: HivePress
+Author URI: https://hivepress.io
+Description: A multipurpose WordPress theme that allows you to build any type of directory and listing websites. Whether it’s a business directory, job board, real estate, classifieds or basically any listing website — ListingHive is a great choice for it.
+Tags: right-sidebar,custom-colors,custom-menu,custom-logo,custom-header,featured-image-header,featured-images,footer-widgets,theme-options,threaded-comments,translation-ready
+Version: 1.2.5.1642080988
+Updated: 2022-01-13 13:36:28
+
+*/
+
+input[type=text]:focus {
+    border: 2px solid #555;
+}
+.div_msg {
+    border-left:3px solid #b32617;  
+    padding:1rem 1.5rem;
+    background-color:#f6f9fc;
+}
+.error_msg{
+    text-align:left;
+}
+@media screen and (max-width: 320px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+}
+.hp-table-last-col td:last-child, .hp-table-last-col th:last-child{
+    text-align:left;
+}
